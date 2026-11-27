@@ -148,8 +148,8 @@ def seed_catalog(conn):
         (filler_cat, "Sprout", 12.0, STARTER_STOCK),
         (filler_cat, "Lavender", 20.0, STARTER_STOCK),
         # Ribbon
-        (ribbon_cat, "Compact Rose", 60.0, STARTER_STOCK),
-        (ribbon_cat, "Bloomed Rose", 65.0, STARTER_STOCK),
+        (ribbon_cat, "Fishtail Ribbon", 15.0, STARTER_STOCK),
+        (ribbon_cat, "Plain Ribbon", 10.0, STARTER_STOCK),
     ]
 
     for cat_id, name, price, qty in items:
@@ -164,7 +164,7 @@ def seed_catalog(conn):
     grand_bouquets = [
         (
             "Beatriz's Thumbelina",
-            None,
+            700,
             [
                 ("Medium Sunflower", 1),
                 ("Chrysanthemum", 1),
@@ -194,7 +194,7 @@ def seed_catalog(conn):
         ),
         (
             "Jasmine's Daydream",
-            None,
+            350.0,
             [
                 ("Medium Sunflower", 1),
                 ("Rose Ver 2.", 1),
@@ -213,7 +213,7 @@ def seed_catalog(conn):
         ),
         (
             "Carlita's Charm",
-            None,
+            375.0,
             [
                 ("Tulips", 4),
                 ("Mini Sunflower", 1),
@@ -223,14 +223,14 @@ def seed_catalog(conn):
         ),
         (
             "Jennie's Serenade",
-            None,
+            375.0,
             [
                 ("Mini Daisy", 25),
             ],
         ),
         (
             "Alivia's Golden Hour",
-            None,
+            450.0,
             [
                 ("Medium Sunflower", 1),
                 ("Rose Ver 2.", 3),
@@ -239,7 +239,7 @@ def seed_catalog(conn):
         ),
         (
             "Eleanor's Elegance",
-            None,
+            300,
             [
                 ("Big Stargazer", 1),
                 ("Sprout", 1),
@@ -247,7 +247,7 @@ def seed_catalog(conn):
         ),
         (
             "Cynthia's Grace",
-            None,
+            200,
             [
                 ("Tulips", 1),
                 ("Medium Leaf", 1),
@@ -257,7 +257,7 @@ def seed_catalog(conn):
         ),
         (
             "Edelia's Tangled Romance",
-            None,
+            250,
             [
                 ("Mini Tangled Stargazer", 1),
                 ("Mini Daisy", 6),
