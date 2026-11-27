@@ -416,7 +416,8 @@ def main():
     init_db()
     while True:
         print("\n====================================================")
-        print("Florisse - A bouquet shop made from fuzzy wire")
+        print(f"""                   Florisse
+       'A bouquet shop made from fuzzy wire'""")
         print("====================================================")
         print("1. Register")
         print("2. Login")
